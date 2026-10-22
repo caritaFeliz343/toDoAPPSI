@@ -23,8 +23,8 @@ import java.io.IOException
 class MainActivity : AppCompatActivity() {
 
     private val client = OkHttpClient()
-    private val urlUsuario = "http://54.147.28.76:5000/usuario"
-    private val urlLogin = "http://54.147.28.76:5000/login"
+    private val urlUsuario = "http://52.91.244.133:5000/usuario"
+    private val urlLogin = "http://52.91.244.133:5000/login"
 
     private lateinit var tvEstado: TextView
     private lateinit var tvNombre: TextView
